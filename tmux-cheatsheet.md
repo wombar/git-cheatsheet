@@ -51,3 +51,6 @@
 `move-window -t 0` - Move current window to 0 (if 0 does not exist). Useful for creating windows out of sequence if that's what you want
 
 `move-window -r` - Re-index all windows sequentially
+
+`setw synchronize-panes on` - Mirror content across all windows
+
