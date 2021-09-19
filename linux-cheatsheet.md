@@ -42,7 +42,9 @@
 
 `find -type f -name '*find_and_delete_me*' -delete`
 
-`find -type f -name '*find_and_delete_me[1-7]*'`
+`find -type f -name '*find_me_with_regex[1-7]*'`
+
+`find . -name 'foo*'` - Find file recursively from current directory (i.e. `.`) using a regex wildcard
 
 ### SCP
 
