@@ -58,3 +58,6 @@
 
 `ln -s /path/to/file linkname` - Create a symlink
 
+### Networking 
+
+`nc -uvz 192.168.1.1 53` - Use netcat to connect on udp for port 53 (can also use FQDN instead of IP)
